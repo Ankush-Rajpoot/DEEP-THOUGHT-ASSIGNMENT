@@ -1,14 +1,14 @@
 Object Data Model for a Nudge
 ==============================
-type: "nudge"
-event_id: The unique ID of the event tagged for the nudge.
-title: The title of the nudge (max 60 characters).
-cover_image: Image file to be displayed as the cover of the nudge (File upload).
-schedule: The date and time for the nudge (in dd/mm/yy and hh:mm format).
-description: A description of the nudge.
-invitation_text: A one-line invitation message for the nudge, which will be displayed when minimized.
-icon: Icon file to be displayed with the invitation message (File upload).
-status: Status of the nudge (e.g., "published", "draft").
+1.type: "nudge"
+2.event_id: The unique ID of the event tagged for the nudge.
+3.title: The title of the nudge (max 60 characters).
+4.cover_image: Image file to be displayed as the cover of the nudge (File upload).
+5.schedule: The date and time for the nudge (in dd/mm/yy and hh:mm format).
+6.description: A description of the nudge.
+7.invitation_text: A one-line invitation message for the nudge, which will be displayed when minimized.
+8.icon: Icon file to be displayed with the invitation message (File upload).
+9.status: Status of the nudge (e.g., "published", "draft").
 
 
 API Documentation
